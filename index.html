@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <div className='logo'>
+                <img src=shein.png alt='Logo' width="150" />
+            </div>
+        </a>
+        <ul>
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Productos</a>
+            </li>
+        </ul>
+        <div className='cart'>
+            <box-icon name="cart"></box-icon>
+            <span className='item__total'>0</span>
+        </div>
+    </header>
+    <div class="formulario">
+        <h1>My Account</h1>
+        <form method="post">
+            <div class="logreg">
+                <label>SignIn Register</label>
+            </div>
+            <div class="username">
+                <input type="username" required>
+                <label>Email</label>
+            </div>
+            <div class="username">
+                <input type="password" required>
+                <label>Contrase;a</label>
+            </div>
+            <div class="recordar">
+                <p>
+                    <input type="checkbox" class="mycheck" id="mycheck"> <label for="mycheck">Recordarme</label>
+                </p>
+            </div>
+            <input type="submit" value="SignIn">
+            <div class="registrarse">
+                No tienes cuenta? <a href="#">Registrate</a><br>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
