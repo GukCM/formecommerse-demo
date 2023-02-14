@@ -18,15 +18,27 @@
         </a>
         <ul>
             <li>
-                <a href="#">Inicio</a>
+                <a href="#">Shop</a>
             </li>
             <li>
-                <a href="#">Productos</a>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Our Story</a>
+            </li>
+            <li>
+                |
             </li>
         </ul>
-        <div className='cart'>
-            <box-icon name="cart"></box-icon>
+        <div className='form__space'>
+            <img src="carrito.png" class="cart" alt="">
             <span className='item__total'>0</span>
+        </div>
+        <div className='form__space'>
+            <img src="lupa.png" class="lupaico" alt="">
+        </div>
+        <div className='form__space'>
+            <img src="usuario.png" class="userico" alt="">
         </div>
     </header>
     <div class="formulario">
@@ -45,12 +57,13 @@
             </div>
             <div class="recordar">
                 <p>
-                    <input type="checkbox" class="mycheck" id="mycheck"> <label for="mycheck">Recordarme</label>
+                    <!-- <input type="checkbox" class="mycheck" id="mycheck"> <label for="mycheck">Recordarme</label> -->
+                    <label for="mycheck"><input class="mycheck" type="checkbox" /> Recordarme</label>
                 </p>
             </div>
             <input type="submit" value="SignIn">
             <div class="registrarse">
-                No tienes cuenta? <a href="#">Registrate</a><br>
+                Have you forgotten your <a href="#">password?</a><br>
             </div>
         </form>
     </div>
